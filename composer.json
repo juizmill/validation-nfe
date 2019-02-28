@@ -1,0 +1,23 @@
+{
+    "name": "juizmill/validation-nfe",
+    "description": "Projeto para validar as entradas de dados referente as Nota fiscal eletronica NFE",
+    "type": "library",
+    "require": {
+        "php": "^7.2",
+        "nfephp-org/sped-nfe": "^5.0",
+        "zendframework/zend-filter": "^2.9",
+        "zendframework/zend-validator": "^2.12"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0",
+        "mockery/mockery": "^1.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jesus Vieira",
+            "email": "jesusvieiradelima@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
