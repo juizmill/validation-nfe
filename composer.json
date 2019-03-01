@@ -19,5 +19,15 @@
             "email": "jesusvieiradelima@gmail.com"
         }
     ],
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Nfe\\Validation\\Tests\\": "tests/"
+        }
+    }
 }
